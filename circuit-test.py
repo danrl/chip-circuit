@@ -57,6 +57,9 @@ def button(button):
 
 # --- main test cyclle --- #
 
+led_init()
+button_init()
+
 for i in range(3):
     led_on("green")
     time.sleep(1)
